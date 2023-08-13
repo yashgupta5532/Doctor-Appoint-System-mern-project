@@ -1,0 +1,92 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+
+.layout{
+    display: flex;
+}
+
+.sidebar{
+    width: 20vw;
+    height: 100vh;
+    background-color: red;
+    color: white;
+    padding: 10px;
+}
+
+.sidebar .logo{
+    text-align: center;
+    font-size: 1.9rem;
+    /* margin-bottom: 40px; */
+    padding-bottom: 30px;
+    border-width: 100%;
+    border-bottom: 2px solid rgb(34, 33, 32);
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+}
+.content .header{
+    min-height: 10vh;
+    border: 1px solid blue;
+    padding: 10px;
+}
+.content .body{
+    padding-top: 10px;
+    height: 90vh;
+    background-color: rgb(193, 199, 193);
+}
+
+/* menu items starts here */
+
+.menu-item{
+    /* margin: 10px; */
+    padding: 17px 0px;
+    transition: 1s;
+    /* border-radius: 40%; */
+}
+/* .menu-item:hover{
+    transform: translateY(-1vmax);
+    color: black;
+    width: 100%;
+    background-color: aquamarine;
+} */
+
+.menu-item i{
+    font-size: 1.6rem;
+    margin: 0 10px;
+    color: rgb(213, 215, 231);
+}
+.menu-item a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: white;
+}
+.active,.active i,.active a{
+    background-color: white;
+    color: black;
+}
+
+.header-content{
+    display: flex;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.header-content i{
+    font-size: 1.3rem;
+    margin-right: 10px;
+}
+
+.header-content a{
+    font-size: 1.4rem;
+    text-decoration: none;
+}
